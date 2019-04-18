@@ -1,8 +1,8 @@
-# teraData
-This project houses experimental Teradata - Spark code.
+# Prototypesa
+This project houses experimental snippets of code.
 
 ## Background
-To run any code in this repository, you will need to download and install the [proprietary Teradata JDBC driver](https://downloads.teradata.com/download/connectivity/jdbc-driver).
+Some snippets of code in this repo test connectivty to Teradata. These requires you to download and install the [proprietary Teradata JDBC driver](https://downloads.teradata.com/download/connectivity/jdbc-driver).
 You will need to set up an account with Teradata, and agree to their licensing agreement.
 
 Once downloaded, unzip and install in your local maven repository:
@@ -14,7 +14,7 @@ mvn install:install-file -DgroupId=com.teradata.jdbc -DartifactId=terajdbc4 -Dve
 
 ```
 
-Also, all of these projects use a config file located in ./queries/(sub-project)/resources. Copy (sub-project name)_local.properties to (sub-project name).properties and fill in the appropriate values.
+Also, all of these projects use a config file located in ./(sub-project)/resources. Copy (sub-project name)_local.properties to (sub-project name).properties and fill in the appropriate values.
 
 For many of the projects, in that same folder is a sample spark-submit script that you can use as a template to run the project on a Yarn based Spark cluster.
 
