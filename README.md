@@ -1,5 +1,5 @@
-# Prototypesa
-This project houses experimental snippets of code.
+# Prototypes
+This project houses experimental snippets of code, generally used to test connectivity, or basic functionality.
 
 ## Background
 Some snippets of code in this repo test connectivty to Teradata. These requires you to download and install the [proprietary Teradata JDBC driver](https://downloads.teradata.com/download/connectivity/jdbc-driver).
